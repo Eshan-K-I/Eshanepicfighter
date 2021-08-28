@@ -52,7 +52,7 @@ params:
     homeInfoParams:
         Title: "Esh's Blog"
         Content: >
-            The home of ideas, thoughts, and rants from the creator of <a href="https://eshanepicfighter.github.io/PhotosForFree">PhotosForFree</a>
+            The home of ideas, thoughts and rants from the creator of <a href="https://eshanepicfighter.github.io/PhotosForFree">PhotosForFree</a>
     socialIcons:
         - name: github
           url: "https://github.com/Eshanepicfighter/Eshanepicfighter"
