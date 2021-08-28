@@ -75,7 +75,12 @@ params:
           url: "https://github.com/Eshanepicfighter/Eshanepicfighter"
 
 
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
 
-
-
-
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
