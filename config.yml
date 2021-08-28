@@ -1,0 +1,73 @@
+baseURL: "example.org"
+title: Esh's Blog
+paginate: 5
+theme: PaperMod
+
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: About
+                  url: about/
+                  weight: 10
+                - name: Donate
+                  url: donate/
+                  weight: 10
+
+
+params:
+    description: "Esh's Blog"
+    author: Esh
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: false
+        title: PaperMod
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
+
+    homeInfoParams:
+        Title: "Esh's Blog"
+        Content: >
+            The home of ideas, thoughts, and rants from the creator of <a href="https://eshanepicfighter.github.io/PhotosForFree">PhotosForFree</a>
+    socialIcons:
+        - name: github
+          url: "https://github.com/Eshanepicfighter/Eshanepicfighter"
+
+
+
+   
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+
