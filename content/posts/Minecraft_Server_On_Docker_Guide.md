@@ -2,6 +2,11 @@
 title: "Minecraft Server on Docker guide"
 date: 2021-08-28T12:16:21-04:00
 tags: ["Minecraft", "Not for Beginners", "Docker", "Misc"]
+cover:
+    image: "https://raw.githubusercontent.com/Eshanepicfighter/Eshanepicfighter/main/content/posts/dockerandminecraft.png"
+    alt: "Minecraft + Docker Image"
+    caption: "Minecraft + Docker"
+    relative: false 
 ---
 This guide NOT for beginners. You might need to read <a href="https://www.freecodecamp.org/news/docker-simplified-96639a35ff36/">freeCodeCamp.org's</a> Docker for dummies
 
