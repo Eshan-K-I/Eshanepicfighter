@@ -7,7 +7,7 @@ outputs:
     home:
         - HTML
         - RSS
-        - JSON # is necessary
+        - JSON 
 
 languages:
     en:
@@ -29,6 +29,10 @@ languages:
                   weight: 10
 
 params:
+    editPost:
+        URL: "https://github.com/Eshanepicfighter/Eshanepicfighter/tree/main/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link	
 
     fuseOpts:
         isCaseSensitive: false
@@ -64,10 +68,10 @@ params:
         # imageWidth: 120
         # imageHeight: 120
         buttons:
-            - name: Archives
+            - name: About
+              url: about
+            - name: Archive
               url: archives
-            - name: Tags
-              url: tags
 
     homeInfoParams:
         Title: "Esh's Blog"
