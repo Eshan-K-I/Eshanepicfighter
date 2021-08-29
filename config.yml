@@ -1,5 +1,6 @@
 baseURL: "https://eshanepicfighter.github.io/Eshanepicfighter/"
 title: Esh's Blog
+paginate: 5
 theme: "PaperMod"
 
 outputs:
@@ -14,16 +15,18 @@ languages:
         weight: 1
         menu:
             main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
                 - name: About
                   url: about/
                   weight: 10
                 - name: Donate
                   url: donate/
                   weight: 10
-                - name: Search
-                  url: search/
-                  weight: 10
-
 
 params:
 
@@ -56,7 +59,7 @@ params:
     profileMode:
         enabled: false
         title: PaperMod
-        imageUrl: "#"
+        imageUrl: "https://user-images.githubusercontent.com/79593316/127756718-008cdf7e-42d5-447f-9178-cef608d3860b.PNG"
         imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
