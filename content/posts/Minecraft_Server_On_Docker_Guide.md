@@ -1,10 +1,8 @@
 ---
 title: "Minecraft Server on Docker guide"
 date: 2021-08-28T12:16:21-04:00
+tags: ["Minecraft", "Not for Beginners", "Docker", "Misc"]
 ---
-
-This blog post is for people who would like to deploy a Minecraft server with heavy levels of customization and flexibility. For feedback email <a href="mailto:eshan.k.iyer@gmail.com">eshan.k.iyer@gmail.com</a>. A good precursor to this blog post would be <a href="https://www.freecodecamp.org/news/docker-simplified-96639a35ff36/">freeCodeCamp.org's Docker for Dummies</a>
-
 
 ## Step 1: Install Docker
 
