@@ -20,25 +20,17 @@ Jupyter Lab, in the words of the Jupyter Project themselves, is a "Web-based fle
 
 First, you want to have Anaconda Python installed (Skip if you have it installed.)
 <br>
-
-Windows x64:
-<code>
-  https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe
-</code>
 <br>
-MacOS x64:
-<code>
-https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg
-</code>
+Windows x64: https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe
+<br>
+MacOS x64: https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.pkg
+<br>
 Linux x64:
-<code>
- https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
-</code>
+https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+<br>
    
 Wait for the graphical installers to finish. Then in the Anaconda CMD Prompt (The app labeld Anaconda Prompt), execute the following command.
-
 <br>
-
 <code>
   conda install -c conda-forge jupyterlab
 </code>
